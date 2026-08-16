@@ -1,0 +1,10 @@
+data/
+results/*.bam
+results/*.bai
+ref/*.fa
+ref/*.fa.*
+ref/*.dict
+ref/dbsnp*.vcf.gz*
+snpEff/
+snpEff_latest_core.zip
+*.tmp.*.bam
