@@ -63,11 +63,11 @@ bash run_pipeline.sh
 
 ### 3. Run with Docker
 ```bash
-docker build -t somatic-pipeline:v2 .
+docker build -t somatic-pipeline:v3 .
 docker run -v $(pwd)/ref:/pipeline/ref \
            -v $(pwd)/data:/pipeline/data \
            -v $(pwd)/results:/pipeline/results \
-           somatic-pipeline:v2
+           somatic-pipeline:v3
 ```
 (snpEff and its database are bundled inside the Docker image; no separate mount needed when running via Docker.)
 
